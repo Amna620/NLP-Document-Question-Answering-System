@@ -1,0 +1,27 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secret configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local AI model files
+*.gguf
+*.safetensors
+
+# Temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
